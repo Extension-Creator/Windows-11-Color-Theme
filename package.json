@@ -1,0 +1,48 @@
+{
+  "name": "windows-11-color-theme",
+  "version": "2.0.0",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "publisher": "ExtensionCreator",
+  "displayName": "Windows 11 Color Theme",
+  "description": "Make Visual Studio Code beautiful and native to Windows 11.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "color-theme",
+    "theme",
+    "Themes",
+    "VSCode",
+    "windows-11"
+  ],
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "license": "Apache-2.0",
+  "preview": false,
+  "icon": "./icon.png",
+  "bugs": {
+    "url": "https://github.com/Extension-Creator/Windows-11-Color-Theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Extension-Creator/Windows-11-Color-Theme"
+  },
+  "homepage": "https://github.com/Extension-Creator/Windows-11-Color-Theme",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Windows 11 Light",
+        "uiTheme": "vs",
+        "path": "./themes/light-theme.json"
+      },
+      {
+        "label": "Windows 11 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark-theme.json"
+      }
+    ]
+  }
+}
