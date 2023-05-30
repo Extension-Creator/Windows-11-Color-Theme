@@ -1,5 +1,19 @@
 # Change Log
 
+## 2.1.1
+
+30/05/2023
+
+* Changed README.md
+* Changed the background color of the activity bar in Windows 11 Dark
+* Changed the background color of inactive tabs in Windows 11 Light
+
+## 2.1.0
+
+13/04/2023
+
+* Added more different colors for text in CSS, HTML, Javascript, Python, Markdown, JSON and Typescript files
+
 ## 2.0.0
 
 13/04/2023

@@ -1,0 +1,85 @@
+
+{
+	"name": "Windows 11 Light",
+	"type": "light",
+	"colors": {
+		"editor.background": "#ffffff",
+		"editor.foreground": "#012a8a",
+		"activityBar.background": "#f5f8ff",
+		"activityBar.foreground": "#0e4b97",
+		"activityBar.inactiveForeground": "#1172ea",
+        "activityBar.activeBackground": "#ccdaf9",
+		"activityBarBadge.background": "#0ca7ea",
+		"activityBarBadge.foreground": "#ffffff",
+		"statusBar.foreground": "#ffffff",
+		"statusBar.background": "#2478e5",
+		"editorSuggestWidget.selectedIconForeground": "#0ca7ea",
+		"editorSuggestWidget.selectedBackground": "#ccdaf9",
+		"sideBar.background": "#f5f8ff",
+		"sideBar.foreground": "#000000",
+		"sideBarSectionHeader.background": "#f1f1f1",
+		"titleBar.activeBackground": "#f5f8ff",
+		"tab.inactiveBackground": "#ebf1ff"
+		
+	},
+	"tokenColors": [
+		{
+			"scope": [
+				"comment"
+			],
+			"settings": {
+				"foreground": "#7e7e7e",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"scope": [
+				"variable",
+				"support.type.property-name.css",
+				"support.type.property-name.json",
+				"support.function.builtin",
+				"markup.underline.link.markdown"
+			],
+			"settings": {
+				"foreground": "#e88803"
+			}
+		},
+		{
+			"scope": [
+				"string",
+				"constant",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#25c505"
+			}
+		},
+		{
+			"scope": [
+				"keyword",
+				"constant.numeric.css",
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#0592de"
+			}
+		},
+		{
+			"scope": "storage",
+			"settings": {
+				"foreground": "#a306b8"
+			}
+		},
+		{
+			"scope": [
+				"entity",
+				"punctuation.definition.tag",
+				"markup.heading.markdown"
+			],
+			"settings": {
+				"foreground": "#ef1010"
+			}
+		}
+	]
+	
+}
