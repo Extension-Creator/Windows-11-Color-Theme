@@ -19,7 +19,7 @@
 		"sideBar.foreground": "#000000",
 		"sideBarSectionHeader.background": "#f1f1f1",
 		"titleBar.activeBackground": "#f5f8ff",
-		"tab.inactiveBackground": "#f5f8ff"
+		"tab.inactiveBackground": "#ebf1ff"
 		
 	},
 	"tokenColors": [
@@ -33,19 +33,33 @@
 			}
 		},
 		{
-			"scope": "variable",
+			"scope": [
+				"variable",
+				"support.type.property-name.css",
+				"support.type.property-name.json",
+				"support.function.builtin",
+				"markup.underline.link.markdown"
+			],
 			"settings": {
 				"foreground": "#e88803"
 			}
 		},
 		{
-			"scope": "string",
+			"scope": [
+				"string",
+				"constant",
+				"support.constant"
+			],
 			"settings": {
 				"foreground": "#25c505"
 			}
 		},
 		{
-			"scope": "keyword",
+			"scope": [
+				"keyword",
+				"constant.numeric.css",
+				"entity.other.attribute-name.html"
+			],
 			"settings": {
 				"foreground": "#0592de"
 			}
@@ -57,27 +71,13 @@
 			}
 		},
 		{
-			"scope": "entity",
+			"scope": [
+				"entity",
+				"punctuation.definition.tag",
+				"markup.heading.markdown"
+			],
 			"settings": {
 				"foreground": "#ef1010"
-			}
-		},
-		{
-			"scope": "constant",
-			"settings": {
-				"foreground": "#309505"
-			}
-		},
-		{
-			"scope": "support.function.builtin",
-			"settings": {
-			"foreground": "#e88803"
-			}
-		},
-		{
-			"scope": "support.type.property-name.json",
-			"settings": {
-			  "foreground": "#e88803"
 			}
 		}
 	]
